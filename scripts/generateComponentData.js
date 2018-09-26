@@ -62,7 +62,7 @@ function getExampleData(examplesPath, componentName) {
 }
 
 function getExampleFiles(examplesPath, componentName) {
-  var examplesFiles = [];
+  var exampleFiles = [];
   try {
     exampleFiles = getFiles(path.join(examplesPath, componentName));
   } catch (error) {
@@ -89,6 +89,6 @@ function writeFile(filepath, content) {
   });
 }
 
-function readFile(filePath) {
+function readFile(filepath) {
   return fs.readFileSync(filepath, 'utf-8');
 }
