@@ -12,7 +12,7 @@ function Label({htmlFor, label, required}) {
 
 Label.propTypes = {
   /** HTML ID for associated input */
-  htmlForm: PropTypes.string.isRequired,
+  htmlFor: PropTypes.string.isRequired,
 
   /** Label text */
   label: PropTypes.string.isRequired,

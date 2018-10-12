@@ -1,0 +1,15 @@
+/*
+In real app, would typically use Sass, Less, or PostCSS with cssnext to centralize variables
+like the error color of red in a sperate single file.
+*/
+.textInput {
+  margin-bottom: 16px;
+}
+
+.textInput__error {
+  color: red;
+}
+
+.textInput__input--state-error {
+  border: solid 1px red;
+}
